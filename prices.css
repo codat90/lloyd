@@ -1,0 +1,327 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; 
+
+Coral - rgb(255, 87, 87)
+Yellow - rgb(255, 189, 89)
+Lime - rgb(142, 255, 146)
+Pink - rgb(255, 146, 221)
+
+Top to bottom slide menu
+LC logo, spin on hover, "Menu" text underneeth, 
+gradually changing color, letter by letter
+Menu has hyperlink to each subsidiary company, Member list, Discord, Forum page
+Employment page, Home page.
+
+Main page has: Corp name, About us, Founders, Subsidiary Companies;
+
+*/
+
+body {
+  background-color: #333333;
+}
+
+#box{
+  background-color: white;
+  width: 50%;
+  height: 2000px;
+  position:absolute;
+  border: 5px solid rgb(255, 87, 87);
+  left: 25%;
+  top: 5%;
+  overflow: hidden;
+}
+
+#box p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  border: 3px solid rgb(255, 87, 87);
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: #333333;
+  border-radius: 10px;
+}
+
+#box p span {
+  font-size: 20px;
+  position:relative;
+  top: -10px;
+}
+
+#box div #cars {
+  background-color: white;
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+#box div p {
+  background-color: white;
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+#box div #vans {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 650px;
+  top: -466px;
+}
+
+#box div #vans1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 650px;
+  top: -466px;
+}
+
+#box div #public {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 300px;
+  top: -812px;
+}
+
+#box div #public1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 300px;
+  top: -812px;
+}
+
+#box div #offroad {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  top: -700px;
+}
+
+#box div #offroad1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  top: -700px;
+}
+
+#box div #novelty {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 300px;
+  top: -1070px;
+}
+
+#box div #novelty1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 300px;
+  top: -1070px;
+}
+
+#box div #lowrider {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 650px;
+  top: -1368px;
+}
+
+#box div #lowrider1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 650px;
+  top: -1368px;
+}
+
+#box div #coupe {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 300px;
+  top: -1300px;
+}
+
+#box div #coupe1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 300px;
+  top: -1300px;
+}
+
+#box div #sedan {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  top: -1862px;
+}
+
+#box div #sedan1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  top: -1862px;
+}
+
+#box div #bike {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 650px;
+  top: -2520px;
+}
+
+#box div #bike1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 650px;
+  top: -2520px;
+}
+
+#box div #sport {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  top: -2240px;
+}
+
+#box div #sport1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  top: -2240px;
+}
+
+#box div #tuner {
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration:underline;
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  left: 300px;
+  top: -2490px;
+}
+
+#box div #tuner1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  left: 300px;
+  top: -2490px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+	background: rgb(66, 66, 66);
+}
+  
+::-webkit-scrollbar-thumb {
+	background: rgb(212, 212, 212);
+	border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(102, 102, 102);
+}
