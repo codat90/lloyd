@@ -92,12 +92,11 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  min-width: 140px;
-  max-width: 120px;
+  min-width: 100px;
 }
 
 #navbar #subsidiary {
-  transform: translateX(-20px) translateY(-9px);
+  transform: translateX(0) translateY(-9px);
 }
 
 .dropdown {
@@ -455,7 +454,7 @@ body {
   background: rgb(189, 52, 52);
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1400px) {
   #navbar {
     display: flex;
     flex-direction: column;
@@ -465,6 +464,9 @@ body {
     padding: 30px 0 30px 0;
     width: 200px;
     font-size: 12px;
+  }
+  #navbar div {
+    width: 140px;
   }
   #header {
     height: 630px;
