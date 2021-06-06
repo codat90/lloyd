@@ -626,6 +626,18 @@ body {
   .company li:hover .dropdown {
     height: 175px;
   }
+  #ma-name {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 29.5%;
+    left: 2.4%;
+    bottom: 10px;
+  }
+  #jas-name {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 29.5%;
+    right: 2.4%;
+    bottom: 10px;
+  }
 }
 
 @keyframes spin {
