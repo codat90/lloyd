@@ -609,6 +609,23 @@ body {
   .retired-text {
     font-size: 10px;
   }
+  .dropdown {
+    width: 70px !important;
+  }
+  .dropdown div {
+    width: 70px !important;
+  }
+  .dropdown div a {
+    height: 10px;
+    padding: 15px 0 18px 0;
+  }
+  #gta {
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  .company li:hover .dropdown {
+    height: 175px;
+  }
 }
 
 @keyframes spin {
