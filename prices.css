@@ -277,3 +277,20 @@ body {
     padding: 2vw;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(66, 66, 66);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 87, 87);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 65, 97);
+}
