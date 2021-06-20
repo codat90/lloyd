@@ -32,7 +32,7 @@ body {
 
 .box {
   background-color: white;
-  width: 50vw;
+  width: 65vw;
   min-width: 350px;
   height: fit-content;
   position: absolute;
@@ -72,11 +72,11 @@ body {
   border: none;
   text-align: left;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   gap: 0vw 3vw;
   margin-top: 1vw;
-  margin-left: -4vw;
-  margin-right: -4vw;
+  margin-left: -7vw;
+  margin-right: -7vw;
   font-size: 1vw;
 }
 
@@ -209,6 +209,7 @@ body {
   font-weight: 600;
   border: 0.2vw solid rgb(255, 87, 87);
   padding: 1vw;
+  margin-bottom: 5vw;
   background-color: #333333;
 }
 
@@ -229,4 +230,23 @@ body {
 .box div #tuner span {
   font-size: 1vw;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 1280px) {
+  .box {
+    width: 90vw;
+  }
+  .box #title {
+    font-size: 2.5vw;
+    padding-bottom: 2.5vw;
+  }
+  .box #title span {
+    font-size: 2vw;
+  }
+  .box div p {
+    font-size: 2.5vw !important;
+  }
+  .box div p span {
+    font-size: 1.8vw !important;
+  }
 }
