@@ -251,7 +251,7 @@ body {
   }
   .box #title {
     font-size: 3vw;
-    background-color: white;
+    background-color: rgb(211, 211, 211);
     color: black;
     padding-bottom: 4vw;
     border: 2.5px solid rgb(255, 87, 87);
@@ -286,7 +286,7 @@ body {
   .box div #public,
   .box div #cars,
   .box div #vans {
-    background-color: white;
+    background-color: rgb(211, 211, 211);
     color: black;
     border: 2.5px solid rgb(255, 87, 87);
     padding: 2vw;
@@ -307,5 +307,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(255, 65, 97);
+  background: rgb(255, 173, 173);
 }
