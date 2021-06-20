@@ -235,18 +235,45 @@ body {
 @media only screen and (max-width: 1280px) {
   .box {
     width: 90vw;
+    border: 4px solid rgb(255, 87, 87);
   }
   .box #title {
-    font-size: 2.5vw;
-    padding-bottom: 2.5vw;
+    font-size: 3vw;
+    padding-bottom: 4vw;
+    border: 2.5px solid rgb(255, 87, 87);
   }
   .box #title span {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .box div p {
-    font-size: 2.5vw !important;
+    font-size: 3.2vw !important;
   }
   .box div p span {
-    font-size: 1.8vw !important;
+    font-size: 2.5vw !important;
+  }
+  .prices {
+    grid-template-columns: auto auto;
+    gap: 0vw 3vw;
+    margin-top: 0vw !important;
+    margin-left: -9vw;
+    margin-right: -9vw;
+  }
+  .box div #sport {
+    margin-bottom: 3.1vw;
+    border: 2.5px solid rgb(255, 87, 87);
+    padding: 2vw;
+  }
+  .box div #tuner,
+  .box div #bike,
+  .box div #coupe,
+  .box div #sedan,
+  .box div #lowrider,
+  .box div #novelty,
+  .box div #offroad,
+  .box div #public,
+  .box div #cars,
+  .box div #vans {
+    border: 2.5px solid rgb(255, 87, 87);
+    padding: 2vw;
   }
 }
