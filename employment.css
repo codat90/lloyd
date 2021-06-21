@@ -2,8 +2,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #333333;
+  background-color: #000000;
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.4;
+  filter: blur(4vw);
 }
 
 .container {
