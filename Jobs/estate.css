@@ -325,4 +325,10 @@ html {
     line-height: 6.5vw;
     font-size: 5vw;
   }
+  .hotring {
+    transform: translateX(-45vw);
+  }
+  #bg {
+    transform: translateX(-45vw);
+  }
 }
