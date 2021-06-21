@@ -278,11 +278,12 @@ body {
 }
 
 #openbtn {
-  color: white;
+  color: #333333;
   position: absolute;
-  left: 6.5vw;
-  top: 1.3vw;
+  left: 3.5vw;
+  top: 2.5vw;
   transition: 0.2s;
+  font-size: 3vw;
 }
 
 #openbtn:hover {
@@ -305,7 +306,7 @@ body {
   }
   .box #title {
     font-size: 3vw;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(238, 238, 238);
     color: black;
     padding-bottom: 4vw;
     border: 2.5px solid rgb(255, 87, 87);
@@ -340,9 +341,9 @@ body {
   .box div #public,
   .box div #cars,
   .box div #vans {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(238, 238, 238);
     color: black;
-    border: 2.5px solid rgb(255, 87, 87);
+    border: none;
     padding: 2vw;
   }
 
@@ -375,9 +376,8 @@ body {
   #openbtn {
     color: white;
     font-size: 6vw !important;
-    position: absolute;
-    left: 10.5vw;
-    top: 7.6%;
+    left: 4vw;
+    top: 1%;
     transition: 0.2s;
   }
 }
