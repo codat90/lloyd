@@ -360,15 +360,16 @@ body {
     padding: 1vw 0px 1vw 0px;
     margin: 5vw 0 5vw 0;
     font-size: 4vw;
+    transform: translateY(15vw);
   }
 
   .sidenav .closebtn {
-    position: static;
+    position: relative;
     color: #ffffff;
     text-decoration: none;
-    top: 5% !important;
+    top: 9% !important;
     font-size: 10vw;
-    margin-left: 47.2%;
+    margin-left: 88.5%;
   }
 
   #openbtn {
