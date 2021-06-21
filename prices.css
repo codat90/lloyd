@@ -374,11 +374,15 @@ body {
   }
 
   #openbtn {
-    color: white;
+    color: rgb(255, 87, 87);
     font-size: 6vw !important;
     left: 4vw;
     top: 1%;
     transition: 0.2s;
+  }
+
+  #openbtn:hover {
+    color: white;
   }
 }
 
