@@ -267,19 +267,19 @@ body {
   }
 
   .sales {
-    transform: perspective(10vw) rotateX(20deg) scale(0.6, 0.5);
-    margin-bottom: 5vw !important;
+    margin-bottom: 10vw !important;
+    transform: perspective(0vw) rotateX(0deg) scale(1, 1);
   }
   .estate {
-    transform: perspective(10vw) rotateX(15deg) scale(0.8, 0.6);
     margin-bottom: 10vw !important;
+    transform: perspective(0vw) rotateX(0deg) scale(1, 1);
   }
   .designer {
-    transform: perspective(10vw) rotateX(11deg) scale(1, 0.8);
-    margin-bottom: 15vw !important;
+    margin-bottom: 10vw !important;
+    transform: perspective(0vw) rotateX(0deg) scale(1, 1);
   }
   .security {
-    transform: perspective(10vw) rotateX(10deg) scale(1.1, 0.8);
+    transform: perspective(0vw) rotateX(0deg) scale(1, 1);
   }
   .sales::before,
   .estate::before,
@@ -300,7 +300,7 @@ body {
   .estate:hover::before,
   .designer:hover::before,
   .security:hover::before {
-    transform: perspective(4vw) rotateX(10deg) scale(1.15, 0.6);
+    transform: perspective(10vw) rotateX(10deg) scale(1.15, 0.8);
     transition: transform 0.4s ease-out;
   }
 }
