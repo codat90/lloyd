@@ -237,9 +237,63 @@ body {
   font-weight: normal;
 }
 
+/* NAVBAR STARTS HERE | NAVBAR STARTS HERE | NAVBAR STARTS HERE | NAVBAR STARTS HERE */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #202020;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 6%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidenav a:not(.closebtn) {
+  padding: 15px 8px 15px 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4vw;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgb(255, 87, 87);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  color: #ffffff;
+  text-decoration: none;
+  top: 0%;
+  right: 41.5%;
+  font-size: 4.5vw;
+  margin-left: 50px;
+}
+
+#openbtn {
+  color: white;
+  position: absolute;
+  left: 6.5vw;
+  top: 1.3vw;
+  transition: 0.2s;
+}
+
+#openbtn:hover {
+  color: rgb(255, 87, 87);
+}
+
+/* NAVBAR ENDS HERE | NAVBAR ENDS HERE | NAVBAR ENDS HERE | NAVBAR ENDS HERE */
+
 @media only screen and (max-width: 1280px) {
   body {
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(70, 70, 70);
   }
   .box {
     width: 85vw;
@@ -290,6 +344,40 @@ body {
     color: black;
     border: 2.5px solid rgb(255, 87, 87);
     padding: 2vw;
+  }
+
+  /* MOBILE NAVBAR | MOBILE NAVBAR | MOBILE NAVBAR | MOBILE NAVBAR */
+
+  .sidenav {
+    padding-top: 0;
+    height: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+  }
+
+  .sidenav a:not(.closebtn) {
+    padding: 1vw 0px 1vw 0px;
+    margin: 5vw 0 5vw 0;
+    font-size: 4vw;
+  }
+
+  .sidenav .closebtn {
+    position: static;
+    color: #ffffff;
+    text-decoration: none;
+    top: 5%;
+    font-size: 10vw;
+    margin-left: 47.2%;
+  }
+
+  #openbtn {
+    color: white;
+    font-size: 6vw !important;
+    position: absolute;
+    left: 10.5vw;
+    top: 7.6%;
+    transition: 0.2s;
   }
 }
 
