@@ -304,9 +304,9 @@ body {
   color: #333333;
   position: absolute;
   left: 3.5vw;
-  top: 2.5vw;
+  top: 3vw;
   transition: 0.2s;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 #openbtn:hover {
@@ -403,7 +403,7 @@ body {
     color: rgb(255, 87, 87);
     font-size: 6vw !important;
     left: 4vw;
-    top: 1%;
+    top: 0.6%;
     transition: 0.2s;
   }
 
