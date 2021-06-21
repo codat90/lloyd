@@ -100,7 +100,7 @@ html {
   text-align: center;
 }
 #gta span {
-  color: rgb(142, 255, 146);
+  color: rgb(255, 170, 228);
   font-weight: 600;
   font-size: 1.5vw;
   line-height: 3vw;
@@ -238,12 +238,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(142, 255, 146);
+  background: rgb(255, 170, 228);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(222, 255, 223);
+  background: rgb(255, 216, 243);
 }
 
 @media only screen and (max-width: 1000px) {
