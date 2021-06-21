@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1"
+      content="width=device-width, initial-scale=1, maximum-scale=2"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -25,6 +25,25 @@
     <title>Lloyd C | Price List</title>
   </head>
   <body>
+    <section>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="https://lloyd-corporation.com/">Home</a>
+        <a
+          href="https://forum.valrisegaming.com/index.php?/topic/15756-official-lloyd-corporation-lc/"
+          id="vehicle"
+          >Forum</a
+        >
+        <a
+          href="https://discord.com/invite/ErYZ9Uc6?utm_source=Discord%20Widget&utm_medium=Connect"
+          >Discord</a
+        >
+        <a href="#">Employment</a>
+      </div>
+    </section>
+
     <div class="container">
       <div class="box">
         <p id="title">
@@ -209,5 +228,11 @@
         </div>
       </div>
     </div>
+    <span
+      id="openbtn"
+      style="font-size: 2vw; cursor: pointer"
+      onclick="openNav()"
+      >&#9776;</span
+    >
   </body>
 </html>
