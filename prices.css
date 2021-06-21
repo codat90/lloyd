@@ -366,7 +366,7 @@ body {
     position: static;
     color: #ffffff;
     text-decoration: none;
-    top: 5%;
+    top: 5% !important;
     font-size: 10vw;
     margin-left: 47.2%;
   }
