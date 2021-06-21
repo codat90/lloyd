@@ -509,16 +509,12 @@ body {
     height: fit-content;
     max-width: 75%;
     margin-top: 80px;
-    margin-left: -93%;
+    margin-left: 10vw;
     padding: 20px;
     box-shadow: 5px 5px 0.5em rgb(117, 117, 117),
       -5px 5px 0.5em rgb(117, 117, 117), 5px -5px 0.5em rgb(117, 117, 117),
       -5px -5px 0.5em rgb(117, 117, 117);
-    animation-name: slideinphone;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-name: none;
   }
   #aboutus h1 {
     font-size: 20px;
@@ -545,17 +541,13 @@ body {
     height: 50%;
     width: 90%;
     position: relative;
-    right: -105vw;
-    margin-top: 640px;
+    left: 5vw;
+    margin-top: 600px;
     border-radius: 8px;
     box-shadow: 5px 5px 0.5em rgb(117, 117, 117),
       -5px 5px 0.5em rgb(117, 117, 117), 5px -5px 0.5em rgb(117, 117, 117),
       -5px -5px 0.5em rgb(117, 117, 117);
-    animation-name: slidein-leftmobile;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-name: none;
   }
   #footer {
     background-color: rgb(49, 57, 66);
