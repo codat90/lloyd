@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #333333;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hotring {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.scroll {
+  background-color: white;
+  height: 3vw;
+  width: 3vw;
+  position: absolute;
+  border-radius: 50%;
+  text-decoration: none;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  line-height: 3.2vw;
+  font-size: 2vw;
+  color: #333333;
+}
+.text-scroll {
+  color: white;
+  position: absolute;
+  text-decoration: none;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+}
+.footer:hover .scroll {
+  background-color: #333333;
+  color: white;
+  transition: background-color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+.footer:hover .text-scroll {
+  color: #333333;
+  transition: background-color 0.3s ease-out;
+}
+
+.footer {
+  background-color: #333333;
+  height: 7vw;
+  width: 20%;
+  right: 2.5%;
+  position: absolute;
+  bottom: 5%;
+  border: 2px solid white;
+  z-index: 2;
+}
+.footer:hover {
+  background-color: #e6e6e6;
+  transition: background-color 0.3s ease-out;
+  border-color: #000000;
+}
+
+.desc {
+  background-color: #333333;
+  height: 200vh;
+  width: 25%;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.desc h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  text-align: center;
+  text-decoration: underline;
+}
+.desc p {
+  font-family: "Montserrat", sans-serif;
+  margin: 2vw;
+  color: white;
+  font-size: 1.2vw;
+  line-height: 1.7vw;
+  text-align: justify;
+}
+#gta {
+  text-align: center;
+}
+#gta span {
+  color: rgb(255, 87, 87);
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+#bg {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  margin-top: 100vh;
+  object-fit: cover;
+  transform: translateX(-16vw);
+}
+
+.second-desc {
+  width: 25%;
+  right: 0;
+  top: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+.second-desc h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  text-align: center;
+  text-decoration: underline;
+}
+.second-desc p {
+  font-family: "Montserrat", sans-serif;
+  margin: 2vw;
+  color: white;
+  font-size: 1.2vw;
+  line-height: 1.6vw;
+}
+
+.header {
+  background-color: #33333300;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+  right: 2.5%;
+  position: absolute;
+  top: 190vh;
+  z-index: 2;
+}
+.scroll-up:hover {
+  background-color: #747474;
+  transition: background-color 0.1s ease-out;
+}
+.scroll-up {
+  background-color: white;
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  bottom: -2vw;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3.2vw;
+  font-size: 2vw;
+  color: #333333;
+}
+
+.back {
+  background-color: #333333;
+  height: 3vw;
+  width: 15%;
+  right: 7.5%;
+  position: absolute;
+  top: 189.8vh;
+  border: 2px solid white;
+  z-index: 2;
+}
+.back:hover {
+  background-color: #e6e6e6;
+  transition: background-color 0.3s ease-out;
+  border-color: #000000;
+}
+.back p {
+  color: white;
+  position: absolute;
+  text-decoration: none;
+  bottom: -45%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: "Montserrat", sans-serif;
+}
+.back:hover p {
+  color: #333333;
+  transition: background-color 0.3s ease-out;
+}
+
+.apply {
+  background-color: #333333;
+  height: 3vw;
+  width: 20%;
+  right: 2.5%;
+  position: absolute;
+  top: 180vh;
+  border: 2px solid white;
+  z-index: 2;
+}
+.apply:hover {
+  background-color: #e6e6e6;
+  transition: background-color 0.3s ease-out;
+  border-color: #000000;
+}
+.apply p {
+  color: white;
+  position: absolute;
+  text-decoration: none;
+  bottom: -45%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: "Montserrat", sans-serif;
+}
+.apply:hover p {
+  color: #333333;
+  transition: background-color 0.3s ease-out;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(66, 66, 66);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 87, 87);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 65, 97);
+}
