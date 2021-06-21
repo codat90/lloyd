@@ -87,6 +87,7 @@ body {
   text-shadow: 0 0 0.5em rgb(89, 120, 255);
   box-shadow: inset 0 0 0.5em rgb(89, 120, 255), 0 0 0.5em rgb(89, 120, 255);
   transition: background-color 0.1s linear;
+  cursor: pointer;
 }
 
 .menu::before {
