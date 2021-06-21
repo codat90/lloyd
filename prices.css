@@ -53,7 +53,6 @@ body {
   align-self: flex-start;
   font-weight: 500;
   color: white;
-  border: 0.2vw solid rgb(255, 87, 87);
   width: 70%;
   max-height: 5vw;
   padding-top: 1.5%;
@@ -61,6 +60,8 @@ body {
   background-color: #333333;
   border-radius: 10px;
   margin-top: 2vw;
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
 }
 
 #title span {
@@ -93,9 +94,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #cars span {
@@ -107,9 +110,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #vans span {
@@ -121,9 +126,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #public span {
@@ -134,9 +141,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #offroad span {
@@ -147,9 +156,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #novelty span {
@@ -160,9 +171,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #lowrider span {
@@ -173,9 +186,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #coupe span {
@@ -186,9 +201,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #sedan span {
@@ -199,9 +216,11 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #bike span {
@@ -212,10 +231,12 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   margin-bottom: 5vw;
   background-color: #333333;
+  border-radius: 10px;
 }
 
 .box div #sport span {
@@ -226,10 +247,12 @@ body {
   font-size: 1.3vw;
   color: white;
   font-weight: 600;
-  border: 0.2vw solid rgb(255, 87, 87);
+  box-shadow: 5px 5px 1em rgb(172, 172, 172), -5px 5px 1em rgb(172, 172, 172),
+    5px -5px 1em rgb(172, 172, 172), -5px -5px 1em rgb(172, 172, 172);
   padding: 1vw;
   background-color: #333333;
   margin-bottom: 5vw;
+  border-radius: 10px;
 }
 
 .box div #tuner span {
@@ -309,7 +332,8 @@ body {
     background-color: rgb(238, 238, 238);
     color: black;
     padding-bottom: 4vw;
-    border: 2.5px solid rgb(255, 87, 87);
+    box-shadow: 5px 5px 0.8em rgb(82, 82, 82), -5px 5px 0.8em rgb(82, 82, 82),
+      5px -5px 0.8em rgb(82, 82, 82), -5px -5px 0.8em rgb(82, 82, 82);
   }
   .box #title span {
     font-size: 2.5vw;
@@ -345,6 +369,8 @@ body {
     color: black;
     border: none;
     padding: 2vw;
+    box-shadow: 5px 5px 0.6em rgb(97, 97, 97), -5px 5px 0.6em rgb(97, 97, 97),
+      5px -5px 0.6em rgb(97, 97, 97), -5px -5px 0.6em rgb(97, 97, 97);
   }
 
   /* MOBILE NAVBAR | MOBILE NAVBAR | MOBILE NAVBAR | MOBILE NAVBAR */
