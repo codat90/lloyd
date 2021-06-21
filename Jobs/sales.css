@@ -244,3 +244,84 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(255, 65, 97);
 }
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    width: 40%;
+  }
+  .desc {
+    width: 45%;
+  }
+  .desc h1 {
+    font-size: 3vw;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+  }
+  .desc p {
+    font-size: 2.5vw;
+    line-height: 4vw;
+    margin-bottom: 5vw;
+  }
+  #gta span {
+    font-size: 3vw;
+  }
+  .scroll {
+    height: 6vw;
+    width: 6vw;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(200%, 75%);
+    line-height: 6.8vw;
+    font-size: 5vw;
+  }
+  .text-scroll {
+    bottom: -60%;
+    left: 0%;
+    transform: translate(20%, 0);
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
+  }
+  .second-desc {
+    width: 45%;
+  }
+  .second-desc h1 {
+    font-size: 3vw;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+  }
+  .second-desc p {
+    font-size: 2.5vw;
+    line-height: 3.7vw;
+  }
+
+  .back {
+    height: 6vw;
+    width: 30%;
+    right: 12.5%;
+    top: 189.8vh;
+  }
+  .back p {
+    bottom: -55%;
+    font-size: 4vw;
+  }
+  .apply {
+    height: 6vw;
+    width: 40%;
+  }
+  .apply p {
+    bottom: -45%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 3.6vw;
+  }
+
+  .scroll-up {
+    height: 6vw;
+    width: 6vw;
+    right: 1vw;
+    bottom: -8vw;
+    line-height: 6.5vw;
+    font-size: 5vw;
+  }
+}
