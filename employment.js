@@ -10,3 +10,7 @@ function changeText(text)
 	display.innerHTML = "";
 	display.innerHTML = text;
 }
+
+$(window).on("load",function(){
+	$(".loader-wrapper").fadeOut("slow");
+});
