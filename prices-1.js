@@ -19,3 +19,7 @@ function closeNav(x) {
 	 document.getElementById("mySidenav").style.height = "0";
 	}
 }
+
+$(window).on("load",function(){
+	$(".loader-wrapper").fadeOut("slow");
+});
