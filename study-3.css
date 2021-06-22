@@ -596,6 +596,9 @@ body {
     font-size: 22px;
     margin-top: 12px;
   }
+  #navbar .employment {
+    transform: translateX(0) translateY(-18px);
+  }
 }
 
 @media only screen and (max-width: 458px) {
