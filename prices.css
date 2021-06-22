@@ -313,6 +313,13 @@ body {
   color: rgb(255, 87, 87);
 }
 
+.footer {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  margin-top: 128%;
+}
+
 /* NAVBAR ENDS HERE | NAVBAR ENDS HERE | NAVBAR ENDS HERE | NAVBAR ENDS HERE */
 
 @media only screen and (max-width: 1280px) {
@@ -371,6 +378,13 @@ body {
     padding: 2vw;
     box-shadow: 5px 5px 0.6em rgb(97, 97, 97), -5px 5px 0.6em rgb(97, 97, 97),
       5px -5px 0.6em rgb(97, 97, 97), -5px -5px 0.6em rgb(97, 97, 97);
+  }
+  
+  .footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    margin-top: 400%;
   }
 
   /* MOBILE NAVBAR | MOBILE NAVBAR | MOBILE NAVBAR | MOBILE NAVBAR */
