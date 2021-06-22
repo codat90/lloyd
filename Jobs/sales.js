@@ -22,3 +22,7 @@ $(document).ready(function(){
 	  } // End if
 	});
   });
+
+$(window).on("load",function(){
+	$(".loader-wrapper").fadeOut("slow");
+});
