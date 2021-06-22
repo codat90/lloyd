@@ -464,7 +464,7 @@ body {
 
 .loader {
   position: absolute;
-  width: 10vw;
+  width: 200px;
   animation: loader 3s infinite ease;
 }
 
