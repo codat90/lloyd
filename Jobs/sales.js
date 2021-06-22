@@ -1,3 +1,7 @@
+$(window).on("load",function(){
+	$(".loader-wrapper").fadeOut("slow");
+});
+
 $(document).ready(function(){
 	// Add smooth scrolling to all links
 	$("a").on('click', function(event) {
@@ -21,8 +25,4 @@ $(document).ready(function(){
 		});
 	  } // End if
 	});
-  });
-
-$(window).on("load",function(){
-	$(".loader-wrapper").fadeOut("slow");
 });
