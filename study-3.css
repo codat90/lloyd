@@ -99,6 +99,10 @@ body {
   min-width: 100px;
 }
 
+#navbar .employment {
+  transform: translateX(0) translateY(-25px);
+}
+
 #navbar #subsidiary {
   transform: translateX(0) translateY(-9px);
 }
