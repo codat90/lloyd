@@ -71,12 +71,13 @@ html {
 }
 
 .desc {
-  background-color: #333333;
+  background-color: #333333b4;
   height: 200vh;
   width: 25%;
   right: 0;
   position: absolute;
   z-index: 1;
+  backdrop-filter: blur(8px);
 }
 
 .desc h1 {
