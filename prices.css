@@ -322,6 +322,25 @@ body {
 
 /* NAVBAR ENDS HERE | NAVBAR ENDS HERE | NAVBAR ENDS HERE | NAVBAR ENDS HERE */
 
+.loader {
+  position: absolute;
+  width: 200px;
+  animation: loader 3s infinite ease;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
 @media only screen and (max-width: 1280px) {
   body {
     background-color: rgb(70, 70, 70);
@@ -441,4 +460,16 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(255, 173, 173);
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
