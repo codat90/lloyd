@@ -9,22 +9,12 @@ document.onreadystatechange = function () {
 }
 
 // PAGE SCROLL //
-
-
+function scrollTopAnimated() {
+	$("html, body").animate(
+		{scrollTop: $("#longpage").offset().top}, 2000);
+}
 
 $(window).on("load",function(){
-	let id = setInterval(function() {
-		window.scrollBy(0,4);
-	}, 1);
-	window.addEventListener('scroll', function() {
-		var someDiv = document.getElementById('longpage');
-		var distanceToTop = someDiv.getBoundingClientRect().top;
-		if(distanceToTop <= 0){
-			clearInterval(id);
-		}
-	 });
-	return id;
+	setTimeout(scrollTopAnimated, 1000);
 });
-
-
 // PAGE SCROLL END //
