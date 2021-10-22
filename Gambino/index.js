@@ -11,7 +11,7 @@ document.onreadystatechange = function () {
 // PAGE SCROLL //
 function scrollTopAnimated() {
 	$("html, body").animate(
-		{scrollTop: $("#longpage").offset().top}, 2000);
+		{scrollTop: $("#longpage").offset().top}, 1000);
 }
 
 $(window).on("load",function(){
