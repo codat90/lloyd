@@ -34,7 +34,7 @@ body {
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(189, 52, 52);
+  background: rgb(161, 43, 43);
 }
 
 .loader {
@@ -64,6 +64,7 @@ body {
   position: absolute;
   top: 0;
   object-fit: cover;
+  pointer-events: none;
 }
 #bgText {
   width: 80%;
@@ -96,9 +97,10 @@ body {
 #longpage {
   background-color: rgb(26, 26, 26);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
-  top: 100vh;
+  top: 100%;
+  overflow: hidden;
 }
 /* MENU NAVIGATION */
 #menu {
@@ -257,7 +259,18 @@ body {
   animation-fill-mode: forwards;
 }
 
-/* MENU NAVIGATION */
+/* NAVBAR */
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  height: 90%;
+  position: relative;
+  margin: auto;
+  top: 100%;
+  border-radius: 40px;
+  backdrop-filter: blur(6px);
+}
 
 #credit {
   height: 120px;
@@ -268,6 +281,7 @@ body {
   bottom: 0;
   right: 20px;
   object-fit: cover;
+  pointer-events: none;
 }
 
 @keyframes loader {
