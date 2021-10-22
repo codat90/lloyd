@@ -22,7 +22,7 @@
     <div class="loader-wrapper">
       <p class="loader"><i class="fab fa-redhat"></i></p>
     </div>
-    <img id="backgroundHQ" src="Gallery/HQ_BW.png" />
+    <img id="backgroundHQ" src="Gallery/HQ_BW.png" draggable="false" />
     <div id="bgText">
       <p id="tgf">The Gambino Family</p>
       <p>La Cosa Nostra</p>
@@ -41,7 +41,10 @@
         <div class="progress" id="diamond4"><p><div class="ghost" id="fdiamond4"><p></p></div></p></div>
         <div class="progress" id="diamond5"><p><div class="ghost" id="fdiamond5"><p></p></div></p></div>
       </div>
-	  <img id="credit" src="Gallery/Juliette.png">
+
+	  <div id="navbar"></div>
+
+	  <img id="credit" src="Gallery/Juliette.png" draggable="false">
     </div>
 
 	<script>
@@ -51,7 +54,8 @@
 				var x = document.getElementsByClassName('progress');
 				Array.from(x).forEach(function(x) {
 					x.style.overflow = "visible";
-				});
+				$("#navbar").delay(200).animate({ top: 0 }, {duration: 1000});
+			});
 			});	
 		})
 	</script>
