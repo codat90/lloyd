@@ -21,7 +21,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #333333;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -54,9 +54,6 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 10;
-}
-body {
-  overflow: hidden;
 }
 #backgroundHQ {
   height: 100%;
@@ -126,6 +123,13 @@ body {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+#menu button:hover {
+  background-color: #f0f0f0;
+  border: 2px solid rgb(255, 255, 255);
+  color: #333333;
 }
 #menu p {
   margin: 1%;
@@ -199,7 +203,6 @@ body {
   height: 2px;
   left: 100%;
   position: relative;
-  box-shadow: 0 0 1em rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255);
 }
 
 #fhistory {
@@ -246,7 +249,26 @@ body {
   opacity: 0;
 }
 
+.glow {
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
 /* MENU NAVIGATION */
+
+#credit {
+  height: 120px;
+  width: 120px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  object-fit: cover;
+}
 
 @keyframes loader {
   0% {
@@ -270,5 +292,13 @@ body {
   100% {
     transform: scale(1);
     margin: 1%;
+  }
+}
+@keyframes glow {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 0 0 1.5em 0.2em rgb(255, 255, 255);
   }
 }
