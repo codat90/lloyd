@@ -45,18 +45,15 @@
     </div>
 
 	<script>
-
-		
 		$("#button").click(function() {
 			$(".progress").addClass('glow');
 			$( ".ghost" ).animate({ opacity: 1, left: 0}, 1000, function() {
 				var x = document.getElementsByClassName('progress');
 				Array.from(x).forEach(function(x) {
 					x.style.overflow = "visible";
-			});
+				});
 			});	
 		})
-
 	</script>
   </body>
 </html>
