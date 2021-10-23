@@ -275,7 +275,7 @@ body {
 #closebtn {
   background-color: rgba(0, 0, 0, 0);
   color: rgb(131, 131, 131);
-  font-size: 1.2vw;
+  font-size: 2vw;
   position: absolute;
   top: 3%;
   border: none;
