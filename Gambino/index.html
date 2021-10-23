@@ -42,7 +42,12 @@
         <div class="progress" id="diamond5"><p><div class="ghost" id="fdiamond5"><p></p></div></p></div>
       </div>
 
-	  <div id="navbar"></div>
+	  <div id="navbar">
+		<button id="closebtn"><i class="fas fa-times"></i></button>
+		<video id="video" loop autoplay muted>
+			<source src="Gallery/Whiskey-full.mp4" type="video/mp4">
+		</video>
+	  </div>
 
 	  <img id="credit" src="Gallery/Juliette.png" draggable="false">
     </div>
@@ -54,10 +59,13 @@
 				var x = document.getElementsByClassName('progress');
 				Array.from(x).forEach(function(x) {
 					x.style.overflow = "visible";
-				$("#navbar").delay(200).animate({ top: 0 }, {duration: 1000});
+				$("#navbar").delay(200).animate({ top: 0 }, {duration: 1000, queue: false});
 			});
 			});	
 		})
+		$('#closebtn').click(function () {
+			$("#navbar").animate({ top: '100%' }, {duration: 1000, queue: false});
+		}) 
 	</script>
   </body>
 </html>
